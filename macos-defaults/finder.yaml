@@ -1,0 +1,28 @@
+---
+description: com.apple.finder
+data:
+  com.apple.finder:
+
+    # Expand the following File Info panes:
+    FXInfoPanesExpanded:
+      Preview: false
+      MetaData: true
+      OpenWith: true
+
+    # Finder > View > As List
+    FXPreferredViewStyle: Nlsv
+
+    # Show icons for hard drives, servers, and removable media on the desktop.
+    ShowExternalHardDrivesOnDesktop: true
+    ShowHardDrivesOnDesktop: false
+    ShowRemovableMediaOnDesktop: true
+
+    # Show path bar
+    ShowPathbar: true
+
+  com.apple.screencapture:
+    # Set the screenshot location:
+    location: "~/Desktop/Screenshots"
+
+    # Save screenshots in PNG format (other options: BMP, GIF, JPG, PDF, TIFF)
+    type: png

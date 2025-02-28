@@ -1,0 +1,30 @@
+# ~/.bash_profile
+
+# Locale settings
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
+# Homebrew environment
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# Source .bashrc for additional interactive settings
+if [ -f ~/.bashrc ]; then
+  source ~/.bashrc
+fi
+
+
+# Prompt configuration based on terminal program
+if [ "$TERM_PROGRAM" = "vscode" ]; then
+  PS1='\[\e[33m\]\w \$\[\e[m\] '
+else
+  PS1='\[\e[33m\]\u@\h:\w \$\[\e[m\] '
+fi
+
+# PATH modifications
+export PATH="/Users/stogas/.docker/bin:$PATH"
+export GOPATH=$(go env GOPATH)
+export PATH="$PATH:$GOPATH/bin"
+
+# History control
+export HISTCONTROL=ignoreboth
+

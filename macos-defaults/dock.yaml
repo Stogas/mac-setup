@@ -1,0 +1,11 @@
+---
+description: com.apple.dock
+data:
+  com.apple.dock:
+    minimize-to-application: true
+    orientation: left
+    show-recents: false
+    showLaunchpadGestureEnabled: false
+    tilesize: 47.0
+    wvous-br-corner: 1
+    wvous-br-modifier: 0

@@ -1,0 +1,12 @@
+[user]
+  name = Ovidijus Balkauskas
+  email = 570945@gmail.com # Used by commit signing
+  signingkey = /Users/stogas/.ssh/yubikey-main.pub # Used by commit signing
+[core]
+  editor = nano
+[init]
+  defaultBranch = main
+[commit]
+  gpgSign = true # Enabled signing by default
+[gpg]
+  format = ssh # Use SSH keys for signing instead of GPG

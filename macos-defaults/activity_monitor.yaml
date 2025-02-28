@@ -1,0 +1,7 @@
+---
+description: com.apple.ActivityMonitor
+data:
+  com.apple.ActivityMonitor:
+    OpenMainWindow: true
+    ShowCategory: 100
+    ShowCategoryAppsinLast12Hours: true

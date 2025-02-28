@@ -1,0 +1,44 @@
+---
+description: NSGlobalDomain
+data:
+  NSGlobalDomain:
+    AppleMiniaturizeOnDoubleClick: false
+    AppleShowAllExtensions: true
+    KB_SpellingLanguage:
+      KB_SpellingLanguageIsAutomatic: true
+    NSNavPanelFileLastListModeForOpenModeKey: 2
+    NSNavPanelFileListModeForOpenMode2: 2
+    NSPreferredWebServices:
+      NSWebServicesProviderWebSearch:
+        NSDefaultDisplayName: Google
+        NSProviderIdentifier: com.google.www
+    NSUserDictionaryReplacementItems: []
+    NavPanelFileListModeForOpenMode: 2
+    com.apple.sound.beep.flash: 0
+    com.apple.springing.delay: 0.5
+    com.apple.springing.enabled: true
+    com.apple.swipescrolldirection: true
+    com.apple.trackpad.forceClick: false
+
+    # Make macOS react faster to keystrokes.
+    KeyRepeat: 2.0
+    InitialKeyRepeat: 30.0
+
+    # Disable press-and-hold for keys in favor of key repeat
+    ApplePressAndHoldEnabled: false
+
+    # Disable smart dashes as they’re annoying when typing code
+    NSAutomaticDashSubstitutionEnabled: false
+
+    # Disable automatic period substitution as it’s annoying when typing code
+    NSAutomaticPeriodSubstitutionEnabled: false
+
+    # Disable smart quotes as they’re annoying when typing code
+    NSAutomaticQuoteSubstitutionEnabled: false
+
+    # Disable auto-correct
+    NSAutomaticSpellingCorrectionEnabled: false
+    NSAutomaticTextCompletionEnabled: false
+
+    # Disable Capitalize words automatically
+    NSAutomaticCapitalizationEnabled: false
