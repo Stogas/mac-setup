@@ -29,6 +29,7 @@ cask "stolendata-mpv"
 cask "itsycal"
 
 cask "visual-studio-code"
+cask "ollama"
 
 #mas "Magnet", id: 441258766 # Window manager from App Store
 mas "Amphetamine", id: 937984704 # sleep preventing
